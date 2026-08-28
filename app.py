@@ -109,6 +109,6 @@ if seleccionado:
 
     st.dataframe(df.drop(columns=["id"]).head(20), width="stretch", height=350)
 
-    st.page_link("pages/1_📋_Base_de_Datos.py", label="➡️ Ir a Base de Datos (altas / bajas / cambios)")
-    st.page_link("pages/2_📊_Reportes.py", label="➡️ Ir a Reportes")
-    st.page_link("pages/3_📈_Dashboard.py", label="➡️ Ir a Dashboard")
+    st.page_link("pages/1_Base_de_Datos.py", label="📋 Ir a Base de Datos (altas / bajas / cambios)")
+    st.page_link("pages/2_Reportes.py", label="📊 Ir a Reportes")
+    st.page_link("pages/3_Dashboard.py", label="📈 Ir a Dashboard")
